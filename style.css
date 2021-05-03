@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d3d3d3;
+    font-family: 'Pangolin', cursive;
+}
+
+h1.name {
+    font-size: 50px;
+    text-align: center;
+}
+
+.wrapper {
+    position: absolute;
+    background-color: #cd5c5c;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    height: 80vh;
+    border-radius: 15%;
+}
+h1.sampleTasks {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
+
+ul.works {
+    position: absolute;
+    right: 120px;
+    top: 100px;
+    width: 20%;
+   background-color:bisque;
+   border-radius: 25%;
+   
+}
+li {
+    list-style: none;
+    text-align: center;
+}
+
+input {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    height: 50px;
+    width: 250px;
+    background-color: bisque;
+    border: 5px solid black;
+    font-size: 30px;
+}
+
+button.add {
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    height: 50px;
+    width: 250px;
+    font-size: 30px;
+    background-color:bisque ;
+    color: rgb(5, 5, 78);
+    border: 5px solid black;
+    cursor: pointer;
+    border-radius: 15%;
+}
+
+h1.tasks {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+ul.addWorks {
+    background-color: bisque;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 50%;
+    min-height: 70%;
+    border-radius: 15%;
+    text-align: left;
+}
+
+ul.addWorks li.task {
+padding-left: 30px;
+padding-top: 15px;
+font-size: 20px;
+text-align: left;
+}
+
+button.delete {
+    font-size: 20px;
+    background-color:bisque ;
+    color: rgb(5, 5, 78);
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius: 15%;
+}
